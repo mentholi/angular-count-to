@@ -15,7 +15,7 @@ var countTo = angular.module('countTo', [])
                     precision = parseInt(attrs.precision) || 0;
                     countTo = parseFloat(attrs.countTo) || 0;
                     scope.value = parseFloat(attrs.value, 10) || 0;
-                    duration = (parseFloat(attrs.duration) * 1000) || 0;
+                    duration = parseInt(attrs.duration) || 500;
 
                     steps = Math.ceil(duration / refreshInterval);
                     increment = ((countTo - scope.value) / steps);

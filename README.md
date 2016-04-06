@@ -28,9 +28,9 @@ Apply the directive to a dom element.
 
 The following attributes can be set as numbers on the directive element.
 
-- ```count-to```  the number to count to.
-- ```value```  the number to start counting from.
-- ```duration```  how long the count should take in seconds.
-- ```precision``` number of decimals if count-to is a floating number.
-- ```format``` whether seperate a large number with comma. Valid values are "comma" or "".
+- ```count-to```  The number to count to.
+- ```value```  The number to start counting from.
+- ```duration```  How long the count should take in milliseconds (Default: 500).
+- ```precision``` Number of decimals if count-to is a floating number.
+- ```format``` Whether seperate a large number with comma. Valid values are "comma" or "".
 
